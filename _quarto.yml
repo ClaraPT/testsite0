@@ -4,14 +4,29 @@ project:
 website:
   title: "Test Site for a Quarto website"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
+    background: primary
+    search: true
+    right:
+      - text: Home
+        file: index.qmd
       - about.qmd
-
+      - sidebar:Data
+            
+  sidebar: 
+    - id: Data
+      title: "Data"
+      style: "docked"
+      background: light
+      collapse-level: 2
+      contents:
+        - text: Current Data
+          href: currentdata.qmd
+        - text: Past Data
+          href: pastdata.qmd
+    
 format:
   html:
-    theme: cosmo
+    theme: minty
     css: styles.css
     toc: true
 
