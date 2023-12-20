@@ -23,6 +23,14 @@ website:
           href: currentdata.qmd
         - text: Past Data
           href: pastdata.qmd
+          
+  page-footer: 
+    left: "Copyright 2023, Clara Peers" 
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/
     
 format:
   html:

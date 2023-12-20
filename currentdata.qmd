@@ -1,1 +1,13 @@
-some data
+---
+title: Current Data
+format:
+  html: 
+    page-layout: full
+---
+
+
+```{ojs}
+pdata = FileAttachment("flare-2.json").json()
+import { chart } with { pdata as data } from "@d3/zoomable-sunburst"
+chart
+```

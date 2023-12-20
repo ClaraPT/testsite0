@@ -19,5 +19,19 @@
     "title": "Test Site for a Quarto website",
     "section": "",
     "text": "EcoAssets Data"
+  },
+  {
+    "objectID": "currentdata.html",
+    "href": "currentdata.html",
+    "title": "Test Site for a Quarto website",
+    "section": "",
+    "text": "some data"
+  },
+  {
+    "objectID": "pastdata.html",
+    "href": "pastdata.html",
+    "title": "Test Site for a Quarto website",
+    "section": "",
+    "text": "some past data"
   }
 ]
